@@ -1,0 +1,22 @@
+﻿<Page x:Class="Practicum_3.EndsWith_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practicum_3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EndsWith_page">
+
+    <Grid Background="AntiqueWhite">
+        <TextBox HorizontalAlignment="Center" Height="69" Margin="0,10,0,0" Text="EndsWith - метод, позволяющий узнать, заканчивается ли строка на определенную подстроку." TextWrapping="Wrap" VerticalAlignment="Top" Width="344" TextChanged="TextBox_TextChanged" FontSize="16" FontWeight="Medium"/>
+        <Label Content="Введите строку:" HorizontalAlignment="Left" Height="30" Margin="26,77,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
+        <TextBox Name="First_endswith_string" HorizontalAlignment="Left" Margin="26,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="69" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Введите подстроку:" HorizontalAlignment="Left" Height="30" Margin="26,195,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
+        <TextBox Name="Second_endswith_string" HorizontalAlignment="Left" Margin="26,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="69" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Начать" HorizontalAlignment="Left" Height="44" Margin="588,258,0,0" VerticalAlignment="Top" Width="138" FontSize="16" FontStyle="Italic" FontWeight="Normal" Click="Start_Endswith_Click" RenderTransformOrigin="0.501,2.128"/>
+        <Label Content="Результат:" HorizontalAlignment="Left" Height="30" Margin="534,137,0,0" VerticalAlignment="Top" Width="93" FontSize="16" FontWeight="Normal"/>
+        <TextBox Name="EndsWith_Result" HorizontalAlignment="Left" Margin="534,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Height="69" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="44" Margin="26,354,0,0" VerticalAlignment="Top" Width="136" FontSize="16" FontStyle="Italic" FontWeight="Normal" Click="Back_Click"/>
+    </Grid>
+</Page>

@@ -9,12 +9,12 @@
       Title="Join_page">
 
     <Grid Background="AntiqueWhite">
-        <TextBox HorizontalAlignment="Center" Background="Gray" Height="62" Margin="0,10,0,0" Text="Join - метод, использующийся для объединения строк через символ " TextWrapping="Wrap" VerticalAlignment="Top" Width="345" TextChanged="TextBox_TextChanged" FontSize="16" FontWeight="Medium"/>
-        <Label Content="Введите первую строку" HorizontalAlignment="Left" Height="30" Margin="26,77,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
+        <TextBox HorizontalAlignment="Center" Height="62" Margin="0,10,0,0" Text="Join - метод, использующийся для объединения строк через символ " TextWrapping="Wrap" VerticalAlignment="Top" Width="345" TextChanged="TextBox_TextChanged" FontSize="16" FontWeight="Medium"/>
+        <Label Content="Введите первую строку:" HorizontalAlignment="Left" Height="30" Margin="26,77,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
         <TextBox Name="First_string" HorizontalAlignment="Left" Margin="26,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="69" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Введите вторую строку" HorizontalAlignment="Left" Height="30" Margin="26,195,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
+        <Label Content="Введите вторую строку:" HorizontalAlignment="Left" Height="30" Margin="26,195,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
         <TextBox Name="Second_string" HorizontalAlignment="Left" Margin="26,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="69" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Введите символ " HorizontalAlignment="Left" Height="30" Margin="512,77,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
+        <Label Content="Введите символ:" HorizontalAlignment="Left" Height="30" Margin="512,77,0,0" VerticalAlignment="Top" Width="187" FontSize="16" FontWeight="Normal"/>
         <TextBox Name="Symbol" HorizontalAlignment="Left" Margin="512,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Height="69" TextChanged="TextBox_TextChanged"/>
         <Button Content="Начать" HorizontalAlignment="Left" Height="44" Margin="566,325,0,0" VerticalAlignment="Top" Width="138" FontSize="16" FontStyle="Italic" FontWeight="Normal" Click="Start_Click"/>
         <Label Content="Результат:" HorizontalAlignment="Left" Height="30" Margin="512,195,0,0" VerticalAlignment="Top" Width="93" FontSize="16" FontWeight="Normal"/>

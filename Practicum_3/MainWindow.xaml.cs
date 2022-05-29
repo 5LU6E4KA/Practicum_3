@@ -18,6 +18,7 @@ namespace Practicum_3
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// Concat, substring, contains, join, indexof, insert, remove, replace, toupper, tolower, split
     public partial class MainWindow : Window
     {
         public MainWindow()

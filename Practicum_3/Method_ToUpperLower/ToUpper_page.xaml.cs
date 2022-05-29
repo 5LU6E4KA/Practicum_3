@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace Practicum_3
 {
     /// <summary>
-    /// Логика взаимодействия для Concat_page.xaml
+    /// Логика взаимодействия для ToUpper_page.xaml
     /// </summary>
-    public partial class Concat_page : Page
+    public partial class ToUpper_page : Page
     {
-        public Concat_page()
+        public ToUpper_page()
         {
             InitializeComponent();
         }
@@ -30,10 +30,10 @@ namespace Practicum_3
         {
 
         }
-        private void Concatt_Click(object sender, RoutedEventArgs e)
+        private void Start_ToLUpper_Click(object sender, RoutedEventArgs e)
         {
-            Result_concat.Text = string.Concat(First_str.Text, Second_str.Text);
+            ToLUpper_Result.Text = First_tolupper_string.Text.ToUpper();
+            ToLower_Result.Text = First_tolupper_string.Text.ToLower();
         }
-
     }
 }
